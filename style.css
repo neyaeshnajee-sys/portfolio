@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #33307a;
+  --secondary: #24124e;
+}
+
+body {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  color: #222;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 3px solid var(--primary);
+}
+
+header h1 {
+  font-size: 42px;
+  font-weight: 900;  
+  color: var(--primary);
+}
+
+.description, .contact-details, .education, .skills, .projects, .languages {
+  padding: 30px 0;
+  border-bottom: 2px solid var(--primary);
+}
+
+.description p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.contact-details a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--secondary);
+  margin-bottom: 15px;
+}
+
+.skills ul, .projects ul {
+  list-style: none;
+}
+
+.skills li, .projects li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
